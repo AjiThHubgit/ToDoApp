@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>ToDoApplication</title>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <button class="btn btn-primary" id="addTask">Add Task</button>
+
+
+        <div id="task_popup" class="show_popup">
+            <div class="popup_body">
+                
+                <form action="">
+
+                    <h1>Add Task</h1>
+                    <div class="task_no">
+                        <label for="" class="d-block">Task No</label>
+                        <input type="text" class="custom_input">
+                    </div>
+                    <div class="task_description">
+                        <label for="" class="d-block label_text">Task Description</label>
+                        <textarea class="custom_input" name="" id="" cols="30" rows="5"></textarea>
+                    </div>
+
+                    <div class="set_start_end_date w-100">
+
+                        <div class="start_date  w-50 pe-2">
+                            <label for="" class="d-block label_text">start date</label>
+                            <input type="date" class="custom_input">
+                        </div>
+                        <div class="end_date  w-50 ps-2">
+                            <label for="" class="d-block label_text">End date</label>
+                            <input type="date" class="custom_input">
+                        </div>
+
+                    </div>
+
+                    <div class="taskstatus">
+                        <label for="" class="label_text">Task Status</label>
+                    </div>
+
+                    <button class="btn bg-primary">Create Task</button>
+                </form>
+
+            </div>
+            
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
